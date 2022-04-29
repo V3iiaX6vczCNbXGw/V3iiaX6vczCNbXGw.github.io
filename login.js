@@ -1,13 +1,11 @@
 function login() {
 
 var pass = document.getElementById("password");
-if (username.value == "") {
-alert("請輸入使用者名稱");
-} else if (pass.value  == "") {
+else if (pass.value  == "") {
 alert("請輸入密碼");
 } else if (pass.value  == "'") {
 alert("Oops, looking like something go wrong");
-}else if(username.value == "asdoifj aasodif hieufhw"){
+}else if(pass.value == "asdoifj aasodif hieufhw"){
 window.location.href="welcome";
 } else {
 alert("error")
